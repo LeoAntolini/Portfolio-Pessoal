@@ -1,0 +1,41 @@
+.lista-habilidades {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.habilidade-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 50px;
+    padding: 0.8rem 1rem;
+    text-align: center;
+}
+
+.indentificador {
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 100%;
+}
+
+.HTML {
+    background-color: #e34c26;
+}
+
+.CSS {
+    background-color: #663399;
+}
+
+.JavaScript {
+    background-color: #f1e05a;
+}
+
+.Java {
+    background-color: #b07219;
+}

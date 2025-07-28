@@ -1,0 +1,38 @@
+.caixas-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.foto-projeto {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info-projeto {
+    padding: 1.5rem;
+}
+
+.titulo-projeto {
+    margin-bottom: 5px;
+}
+
+.descricao-projeto {
+    display: flex;
+    color: rgba(226, 232, 240, 0.8);
+    line-height: 1.25rem;
+}
+
+@media (max-width: 1024px) {
+    #projetos {
+        height: auto;
+    }
+
+    .caixas-projetos {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
