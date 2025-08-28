@@ -16,26 +16,11 @@
     text-align: center;
 }
 
-.indentificador {
+.habilidade {
     display: block;
     width: 10px;
     height: 10px;
     padding: 1px;
-    border-radius: 100%;
-}
-
-.HTML {
-    background-color: #e34c26;
-}
-
-.CSS {
-    background-color: #663399;
-}
-
-.JavaScript {
-    background-color: #f1e05a;
-}
-
-.Java {
-    background-color: #b07219;
+    border-radius: 100%;  
+    background-color: #ccc;  
 }
